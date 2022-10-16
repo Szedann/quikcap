@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quikcap/static/css/main.96b3eefe.css",
+    "main.css": "/quikcap/static/css/main.6a562209.css",
     "main.js": "/quikcap/static/js/main.9e89921a.js",
     "index.html": "/quikcap/index.html",
-    "main.96b3eefe.css.map": "/quikcap/static/css/main.96b3eefe.css.map",
+    "main.6a562209.css.map": "/quikcap/static/css/main.6a562209.css.map",
     "main.9e89921a.js.map": "/quikcap/static/js/main.9e89921a.js.map"
   },
   "entrypoints": [
-    "static/css/main.96b3eefe.css",
+    "static/css/main.6a562209.css",
     "static/js/main.9e89921a.js"
   ]
 }
