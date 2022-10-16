@@ -6,3 +6,5 @@
 - Press 🔴
 - Select What do you want to record
 - Start Recording!
+
+##### Made By Szedann
