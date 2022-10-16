@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #16191D;
+    color: #fff;
+}
+
+header{
+    width: 100vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 0 3em;
+    text-align: center;
+    font-weight: 200;
+}
+
+header h1{
+    margin: 0;
+    font-size: 3.3em;
+    font-weight: 900;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 100vw;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main video { 
+    width: 100%;
+    /* aspect-ratio: 16 / 9; */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #0005;
+    background-color: #000;
+}
+
+main .statusBar{
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    background-color: #0007;
+    padding: 5px;
+    border-radius: 10px;
+    width: min-content;
+}
+
+main .statusBar input{
+    cursor: pointer;
+    display: block;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 2em;
+    width: 1.8em;
+    outline: 0;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #0005;
+    background-color: #0005;
+}
+
+main .statusBar input:disabled{
+    opacity: .5;
+    cursor: default;
+}
+
+.vidHelper{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    border: 1px solid #0005;
+    background-color: #000;
+    display: grid;
+    place-content: center;
+}
+
+.vidHelper h1{
+    font-weight: 200;
+    font-family: monospace;
+}
