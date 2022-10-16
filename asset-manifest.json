@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.96b3eefe.css",
-    "main.js": "/static/js/main.9e89921a.js",
-    "index.html": "/index.html",
-    "main.96b3eefe.css.map": "/static/css/main.96b3eefe.css.map",
-    "main.9e89921a.js.map": "/static/js/main.9e89921a.js.map"
+    "main.css": "/quikcap/static/css/main.96b3eefe.css",
+    "main.js": "/quikcap/static/js/main.9e89921a.js",
+    "index.html": "/quikcap/index.html",
+    "main.96b3eefe.css.map": "/quikcap/static/css/main.96b3eefe.css.map",
+    "main.9e89921a.js.map": "/quikcap/static/js/main.9e89921a.js.map"
   },
   "entrypoints": [
     "static/css/main.96b3eefe.css",
