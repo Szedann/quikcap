@@ -54,21 +54,21 @@ main .statusBar{
     width: min-content;
 }
 
-main .statusBar input{
+main .statusBar div{
     cursor: pointer;
-    display: block;
+    display: flex;
     aspect-ratio: 1;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 2em;
     width: 1.8em;
     outline: 0;
     border-radius: 8px;
-    color: #fff;
     border: 1px solid #0005;
     background-color: #0005;
 }
 
-main .statusBar input:disabled{
+main .statusBar div[aria-disabled=true]{
     opacity: .5;
     cursor: default;
 }
@@ -87,4 +87,8 @@ main .statusBar input:disabled{
     font-weight: 200;
     font-family: monospace;
     text-align: center;
+}
+
+.recordButton{
+    color: #f22;
 }

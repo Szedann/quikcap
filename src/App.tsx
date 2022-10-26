@@ -1,6 +1,7 @@
 import React, { createRef, useEffect, useMemo, useState } from 'react';
 import { saveAs } from 'file-saver';
 import './style.css'
+import { MdFiberManualRecord, MdStop, MdDownload } from 'react-icons/md'
 
 function App() {
   const [stream, setStream] = useState(null as null|MediaStream)
@@ -80,10 +81,10 @@ function App() {
         }
         <div className="statusBar">
           {stream?.active
-            ? <input type="button" value="⬜" onClick={stopRecording}/>
-            : <input type="button" value="🔴" onClick={startRecording}/>
+            ? <div onClick={stopRecording}><MdStop size={64} /></div>
+            : <div onClick={startRecording} className="recordButton"><MdFiberManualRecord size={64}/></div>
           }
-          <input type="button" value="⭳" disabled={stream?.active || !mediaRecorder} onClick={saveFile}  />
+          <div aria-disabled={stream?.active || !mediaRecorder} onClick={()=>(stream?.active || !mediaRecorder) ? undefined : saveFile()}><MdDownload size={42} /></div>
         </div>
       </main>
       
